@@ -1,31 +1,68 @@
 body {
-  height: 100vh;
   margin: 0;
-  display: grid;
-  grid-template-rows: 1fr 5fr 1fr;
-  grid-template-areas: "rubrik" "start" "idk";
-  justify-items: center;
-  align-items: center;
-}
-
-#startKnapp {
-  grid-area: start;
-  font-size: 4rem;
-  height: 8rem;
-  width: 15rem;
-  background-color: black;
-  align-items: center;
+  height: 100vh;
+  display: flex;
   justify-content: center;
-  border-radius: 5px;
+  align-items: center;
+  background-color: aqua;
 }
 
-#rubrik {
-  grid-area: rubrik;
+#counter {
+  font-size: 10rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  color: #333;
+  transition: transform 0.1s ease;
+}
+#counter:active {
+  transform: scale(1.05);
+}
+
+#cookie {
+  position: absolute;
   font-size: 3rem;
+  cursor: pointer;
+  display: none;
 }
 
-a {
-  text-decoration: none;
-  align-items: center;
-  justify-content: center;
+.J1 {
+  background-color: yellow;
+}
+
+.J2 {
+  background-color: green;
+}
+
+.J3 {
+  background-color: darkgray;
+}
+
+.J4 {
+  background-color: orange;
+}
+
+.J5 {
+  background-color: red;
+}
+
+.J6 {
+  background-color: rgb(5, 33, 41);
+}
+
+.J7 {
+  background-color: purple;
+}
+
+.J8 {
+  background-color: rgb(219, 121, 147);
+}
+
+.J9 {
+  background-color: black;
+}
+
+.J10 {
+  background-color: white;
 }/*# sourceMappingURL=index.css.map */
